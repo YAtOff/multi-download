@@ -18,7 +18,7 @@ function fallback(urls) {
 				// Safari needs a timeout
 				setTimeout(function () {
 					frame.parentNode.removeChild(frame);
-				}, 1000);
+				}, 5000);
 
 				if (i < urls.length) {
 					createIframe();
